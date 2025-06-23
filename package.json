@@ -5,7 +5,7 @@
     "description": "Killoria Network Launcher v1.2.0 - Lanceur officiel pour accéder au serveur",
     "main": "src/app.js",
     "author": "Tezere/Riptiaz/Boulldogo/Vexato/Luuxis",
-    "env": "Azuriom",
+    "env": "azuriom",
     "settings": "https://www.killoria.eu",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
