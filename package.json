@@ -37,6 +37,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Tezere865/CentralCorp-Launcher"
+        "url": "git+https://github.com/Tezere865/CentralCorp-Launcher.git" 
+
     }
 }
