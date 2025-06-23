@@ -1,12 +1,12 @@
 {
-    "name": "conflictura",
-    "preductname": "Conflictura Launcher",
-    "version": "3.2.9",
-    "description": "Conflictura modded server launcher",
+    "name": "Killoria",
+    "preductname": "Killoria Network",
+    "version": "1.2.0",
+    "description": "Killoria Network Launcher v1.2.0 - Lanceur officiel pour accéder au serveur",
     "main": "src/app.js",
-    "author": "Riptiaz/Boulldogo/Vexato/Luuxis",
+    "author": "Tezere/Riptiaz/Boulldogo/Vexato/Luuxis",
     "env": "azuriom",
-    "settings": "https://conflictura.eu",
+    "settings": "https://www.killoria.eu",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --obf=true --build=platform",
@@ -37,6 +37,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Riptiaz/CentralCorp-Launcher.git"
+        "url": "git+https://github.com/Tezere865/CentralCorp-Launcher"
     }
 }
