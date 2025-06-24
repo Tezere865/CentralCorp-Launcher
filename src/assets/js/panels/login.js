@@ -74,7 +74,7 @@ class Login {
     updateMoney(account) {
         if (this.config.money) {
             const blockMonnaie = document.createElement("div");
-            blockMonnaie.innerHTML = `<div>${account.user_info.monnaie} pts</div>`;
+            blockMonnaie.innerHTML = `<div>${account.user_info.monnaie} Token</div>`;
             document.querySelector('.player-monnaie').appendChild(blockMonnaie);
         } else {
             document.querySelector(".player-monnaie").style.display = "none";
