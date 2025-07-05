@@ -1,8 +1,8 @@
 {
     "name": "Killoria",
     "preductname": "Killoria Network",
-    "version": "1.4.2",
-    "description": "Killoria Network Launcher v1.2.0 - Lanceur officiel pour accéder au serveur",
+    "version": "1.4.3",
+    "description": "Killoria Network Launcher v1.4.3 - Lanceur officiel pour accéder au serveur",
     "main": "src/app.js",
     "author": "Tezere/Riptiaz/Boulldogo/Vexato/Luuxis",
     "env": "azuriom",
