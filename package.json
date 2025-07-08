@@ -1,18 +1,17 @@
 {
-    "name": "conflictura",
-    "preductname": "Conflictura Launcher",
-    "version": "3.3.0",
-    "description": "Conflictura modded server launcher",
+    "name": "Aragonite",
+    "preductname": "Aragonite Launcher",
+    "version": "1.0.1",
+    "description": "Aragonite lanceur de serveur",
     "main": "src/app.js",
-    "author": "Riptiaz/Boulldogo/Vexato/Luuxis",
-    "env": "azuriom",
-    "settings": "https://conflictura.eu",
+    "author": "Tezere/Riptiaz/Boulldogo/Vexato/Luuxis",
+    "env": "panel",
+    "settings": "https://launcher.killoria.eu",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --obf=true --build=platform",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "icon": "node build.js --icon=https://raw.githubusercontent.com/CentralCorp/CentralCorp-Launcher/master/src/assets/images/icon.png"
-
     },
     "license": "CC0",
     "nodemonConfig": {
@@ -30,13 +29,13 @@
         "cross-env": "^7.0.3",
         "electron": "^37.2.0",
         "electron-builder": "^26.0.12",
-        "nodemon": "^3.1.9",
-        "png2icons": "^2.0.1",
         "javascript-obfuscator": "^4.1.0",
-        "jimp": "^0.22.12"
+        "jimp": "^0.22.12",
+        "nodemon": "^3.1.9",
+        "png2icons": "^2.0.1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Riptiaz/CentralCorp-Launcher.git"
+        "url": "git+https://github.com/TezereDev/Aragonite-Launcher"
     }
 }

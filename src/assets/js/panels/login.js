@@ -64,7 +64,7 @@ class Login {
     updateRole(account) {
         if (this.config.role && account.user_info.role) {
             const blockRole = document.createElement("div");
-            blockRole.innerHTML = `<div>${t('grade')}: ${account.user_info.role.name}</div>`;
+            blockRole.innerHTML = `<div>${t('Rank')}: ${account.user_info.role.name}</div>`;
             document.querySelector('.player-role').appendChild(blockRole);
         } else {
             document.querySelector(".player-role").style.display = "none";
@@ -74,7 +74,7 @@ class Login {
     updateMoney(account) {
         if (this.config.money) {
             const blockMonnaie = document.createElement("div");
-            blockMonnaie.innerHTML = `<div>${account.user_info.monnaie} pts</div>`;
+            blockMonnaie.innerHTML = `<div>${account.user_info.monnaie} Coins</div>`;
             document.querySelector('.player-monnaie').appendChild(blockMonnaie);
         } else {
             document.querySelector(".player-monnaie").style.display = "none";
