@@ -1,7 +1,7 @@
 {
     "name": "Aragonite",
     "preductname": "Aragonite Launcher",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "description": "Aragonite lanceur de serveur",
     "main": "src/app.js",
     "author": "Tezere/Riptiaz/Boulldogo/Vexato/Luuxis",
