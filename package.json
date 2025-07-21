@@ -1,15 +1,9 @@
 {
-<<<<<<< HEAD
+
     "name": "Aragonite",
     "preductname": "Aragonite Launcher",
-    "version": "4.1.3",
+    "version": "4.1.5",
     "description": "Aragonite lanceur de serveur",
-=======
-    "name": "conflictura",
-    "preductname": "Conflictura Launcher",
-    "version": "3.3.2",
-    "description": "Conflictura modded server launcher",
->>>>>>> upstream/master
     "main": "src/app.js",
     "author": "Tezere/Riptiaz/Boulldogo/Vexato/Luuxis",
     "env": "panel",
