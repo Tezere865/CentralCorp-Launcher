@@ -64,7 +64,7 @@ class Home {
 
     createNewsBlock(container, title, content, author = '', date = {}) {
         const blockNews = document.createElement('div');
-        blockNews.classList.add('news-block', 'opacity-1');
+        blockNews.classList.add('news-block', 'opacity-2');
         blockNews.innerHTML = `
             <div class="news-header">
                 <div class="header-text">

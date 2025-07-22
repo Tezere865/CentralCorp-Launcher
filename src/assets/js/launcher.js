@@ -213,7 +213,7 @@ class Launcher {
     updateMoney(account) {
         if (this.config.money) {
             const blockMonnaie = document.createElement("div");
-            blockMonnaie.innerHTML = `<div>${account.user_info.monnaie} token</div>`;
+            blockMonnaie.innerHTML = `<div>${account.user_info.monnaie} 💎</div>`;
             document.querySelector('.player-monnaie').appendChild(blockMonnaie);
         } else {
             document.querySelector(".player-monnaie").style.display = "none";
@@ -230,7 +230,7 @@ class Launcher {
             playBtn.style.boxShadow = "none";
             playBtn.textContent = t('unavailable');
         } else {
-            playBtn.style.backgroundColor = "#00bd7a";
+            playBtn.style.backgroundColor = "#0e37a8";
             playBtn.style.pointerEvents = "auto";
             playBtn.style.boxShadow = "2px 2px 5px rgba(0, 0, 0, 0.3)";
             playBtn.textContent = t('play');
