@@ -1,8 +1,8 @@
 {
 
-    "name": "KO Game ",
-    "preductname": "KO Game ",
-    "version": "4.2.8",
+    "name": "ko-game",
+    "preductname": "KO Game",
+    "version": "4.2.9",
     "description": "KO Game lanceur des Serveur de Killoria Studio",
     "main": "src/app.js",
     "author": "Tezere/Riptiaz/Boulldogo/Vexato/Luuxis",
