@@ -2,7 +2,7 @@
 
     "name": "KO Game ",
     "preductname": "KO Game ",
-    "version": "4.2.7",
+    "version": "4.2.8",
     "description": "KO Game lanceur des Serveur de Killoria Studio",
     "main": "src/app.js",
     "author": "Tezere/Riptiaz/Boulldogo/Vexato/Luuxis",
@@ -37,6 +37,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TezereDev/Aragonite-Launcher"
+        "url": "git+https://github.com/Tezere865/CentralCorp-Launcher"
     }
 }
