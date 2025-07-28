@@ -166,7 +166,7 @@ class Launcher {
                 document.querySelector(".preload-content").style.display = "none";
                 return;
             }
-            changePanel("home");
+            changePanel("home");settings_url
             this.refreshData();
         }
         document.querySelector(".preload-content").style.display = "none";
@@ -262,6 +262,7 @@ class Launcher {
             : `${this.config.azauth}/`;
     }
 }
+
 
 new Launcher().init();
 

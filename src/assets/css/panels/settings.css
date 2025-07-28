@@ -28,6 +28,10 @@ body {
     align-items: center;
     padding: 0 10px;
     transition: background 0.3s, transform 0.2s;
+    -webkit-transition: background 0.3s, transform 0.2s;
+    -moz-transition: background 0.3s, transform 0.2s;
+    -ms-transition: background 0.3s, transform 0.2s;
+    -o-transition: background 0.3s, transform 0.2s;
 }
 
 .tab-btn-css:hover {

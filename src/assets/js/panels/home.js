@@ -248,7 +248,7 @@ class Home {
         if (thumbnailImg && playButton) {
             thumbnailImg.src = youtubeThumbnailUrl;
             videoThumbnail.addEventListener('click', () => {
-                videoThumbnail.innerHTML = `<iframe width="500" height="290" src="${youtubeEmbedUrl}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>`;
+                videoThumbnail.innerHTML = `<iframe width="800" height="290" src="${youtubeEmbedUrl}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>`;
             });
         }
     }
